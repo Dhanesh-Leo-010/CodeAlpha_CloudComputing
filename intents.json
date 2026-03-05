@@ -1,0 +1,199 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Yo", "What's up"],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Ready to explore something interesting?",
+        "Greetings! Ask me anything."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later", "Talk to you later"],
+      "responses": [
+        "Goodbye! Have a productive day!",
+        "See you soon!",
+        "Signing off. Stay awesome!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+
+    {
+      "tag": "apology",
+      "patterns": ["Sorry", "My bad", "I apologize"],
+      "responses": [
+        "No worries at all!",
+        "It's completely fine.",
+        "No problem!"
+      ]
+    },
+
+    {
+      "tag": "about_bot",
+      "patterns": ["Who are you?", "What are you?", "Tell me about you", "What is this?"],
+      "responses": [
+        "I'm an AI chatbot built using NLP techniques for an internship project.",
+        "I'm your intelligent assistant designed to answer queries quickly.",
+        "A smart chatbot trained to respond based on predefined intents."
+      ]
+    },
+
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who is your developer?", "Who created you?"],
+      "responses": [
+        "I was developed as part of an AI internship project.",
+        "A brilliant developer built me using Python and NLP.",
+        "Created with logic, code, and determination."
+      ]
+    },
+
+    {
+      "tag": "capabilities",
+      "patterns": ["What can you do?", "How can you help?", "Your features?"],
+      "responses": [
+        "I can answer questions, engage in small talk, and demonstrate NLP concepts.",
+        "I handle predefined intents and simulate conversational AI.",
+        "I'm designed to respond intelligently based on trained data."
+      ]
+    },
+
+    {
+      "tag": "feeling_bot",
+      "patterns": ["How are you?", "How's it going?", "Are you fine?"],
+      "responses": [
+        "I'm functioning perfectly!",
+        "All systems operational.",
+        "Running smoothly and ready to help."
+      ]
+    },
+
+    {
+      "tag": "user_feeling_good",
+      "patterns": ["I am fine", "I'm good", "Doing well", "I am happy"],
+      "responses": [
+        "That's great to hear!",
+        "Awesome! Keep that energy.",
+        "Glad you're doing well!"
+      ]
+    },
+
+    {
+      "tag": "user_feeling_bad",
+      "patterns": ["I am sad", "I'm tired", "Feeling low", "Not good"],
+      "responses": [
+        "I'm sorry to hear that. Things will improve.",
+        "Stay strong. Every phase passes.",
+        "Take a short break and reset."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "I need motivation", "Inspire me"],
+      "responses": [
+        "Success is built from consistent small efforts.",
+        "Discipline beats motivation.",
+        "Every expert was once a beginner."
+      ]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": [
+        "Why did the developer go broke? Because he used up all his cache.",
+        "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "Debugging: Being the detective in a crime movie where you're also the murderer."
+      ]
+    },
+
+    {
+      "tag": "time_query",
+      "patterns": ["What time is it?", "Tell me the time"],
+      "responses": [
+        "I can't access real-time data, but you can check your system clock.",
+        "Time to keep coding!"
+      ]
+    },
+
+    {
+      "tag": "date_query",
+      "patterns": ["What's the date?", "Tell me today's date"],
+      "responses": [
+        "I don't have live date access, but your device knows it.",
+        "Every day is a good day to learn AI."
+      ]
+    },
+
+    {
+      "tag": "ai_info",
+      "patterns": ["What is AI?", "Define artificial intelligence", "Explain AI"],
+      "responses": [
+        "Artificial Intelligence is the simulation of human intelligence in machines.",
+        "AI enables machines to learn, reason, and make decisions."
+      ]
+    },
+
+    {
+      "tag": "nlp_info",
+      "patterns": ["What is NLP?", "Explain natural language processing"],
+      "responses": [
+        "Natural Language Processing allows computers to understand human language.",
+        "NLP bridges the gap between humans and machines using language models."
+      ]
+    },
+
+    {
+      "tag": "yes_response",
+      "patterns": ["Yes", "Yeah", "Sure", "Okay"],
+      "responses": [
+        "Great!",
+        "Alright!",
+        "Understood."
+      ]
+    },
+
+    {
+      "tag": "no_response",
+      "patterns": ["No", "Nope", "Not really"],
+      "responses": [
+        "Alright, let me know if you change your mind.",
+        "Okay, we can try something else."
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": ["Help", "What should I ask?", "Commands"],
+      "responses": [
+        "You can ask about AI, NLP, motivation, jokes, or general questions.",
+        "Try asking me about my features or request motivation."
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand that.",
+        "Could you rephrase your question?",
+        "Interesting... but I need more clarity."
+      ]
+    }
+
+  ]
+}
