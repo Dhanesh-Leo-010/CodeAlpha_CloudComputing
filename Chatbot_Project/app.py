@@ -38,8 +38,9 @@ def chatbot_response(user_input):
 def home():
     return render_template("index.html")
 
+
 @app.route("/get", methods=["POST"])
-def chatbot_response():
+def get_bot_response():
     sentence = request.form.get("msg")
 
     if not sentence:
@@ -47,8 +48,10 @@ def chatbot_response():
 
     sentence = sentence.lower()
 
-    response = chatbot_response(sentence)
+    response = chatbot_response(sentence)  # call the logic function
     return response
+
+
 if __name__ == "__main__":
     app.run(debug=True)
     
